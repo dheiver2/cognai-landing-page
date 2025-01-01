@@ -1,79 +1,86 @@
-# Projeto de Medicina Assistida por IA
+# Landing Page - Cognai
 
-Este é um projeto focado em aplicar inteligência artificial (IA) para melhorar os processos médicos, com o objetivo de fornecer ferramentas para diagnósticos mais rápidos e precisos, além de otimizar o tratamento de pacientes.
+## Descrição do Projeto
+Esta é a **landing page** oficial da **Cognai**, projetada para apresentar a empresa, seus serviços, valores e diferenciais de forma clara e atraente. O objetivo principal é captar a atenção de visitantes, comunicar a proposta de valor da empresa e gerar leads qualificados.
 
-## Descrição
-
-Este projeto utiliza técnicas de aprendizado de máquina (machine learning) e inteligência artificial para analisar dados médicos, como sinais vitais e exames, a fim de apoiar os profissionais de saúde na tomada de decisões clínicas. A plataforma pode identificar padrões, prever resultados e sugerir tratamentos personalizados.
-
-## Funcionalidades
-
-- **Análise de sinais vitais**: Processamento e interpretação de dados de ECG, frequência cardíaca, e outros sinais vitais para prever condições médicas.
-- **Diagnóstico assistido por IA**: Utilização de algoritmos de machine learning para auxiliar médicos no diagnóstico de doenças com base em históricos médicos e exames.
-- **Otimização de tratamento**: Sugestões baseadas em IA para tratamentos personalizados com base no perfil de cada paciente.
+---
 
 ## Tecnologias Utilizadas
+- **HTML5**: Estruturação do conteúdo.
+- **CSS3**: Estilização da página, incluindo layouts responsivos.
+- **JavaScript**: Funcionalidades interativas e dinâmicas.
+- **Frameworks/Libs**: *(se aplicável)* Exemplo: Bootstrap, TailwindCSS, etc.
+- **Backend (opcional)**: Node.js, PHP, ou outro (caso necessário para envio de formulários ou integração com APIs).
 
-- Python
-- TensorFlow / PyTorch
-- OpenCV
-- NLTK / spaCy
-- Google Cloud / AWS / Azure
-- Pandas / NumPy
-- Matplotlib / Seaborn
-- Jupyter Notebooks
+---
 
-## Como Usar
+## Estrutura da Landing Page
+
+### 1. **Seções**
+- **Hero Section**: Apresentação com slogan, CTA (Call to Action) e imagem principal.
+- **Sobre a Cognai**: Breve descrição sobre a empresa e sua missão.
+- **Serviços**: Destaque para os principais serviços oferecidos.
+- **Depoimentos**: Feedback de clientes e parceiros.
+- **Portfólio/Projetos**: Exibição de cases de sucesso.
+- **Contato**: Formulário para geração de leads.
+
+### 2. **Recursos**
+- Design responsivo para dispositivos móveis e desktops.
+- Otimização para SEO.
+- Integração com ferramentas de análise (Google Analytics, Hotjar, etc.).
+- Links para redes sociais da empresa.
+
+---
+
+## Como Executar Localmente
 
 ### Pré-requisitos
+- Navegador moderno (Google Chrome, Firefox, etc.).
+- Editor de código (ex.: VSCode) *(opcional)*.
 
-Certifique-se de ter o Python 3.x instalado em sua máquina. Além disso, é recomendável criar um ambiente virtual para instalar as dependências.
+### Passos
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/cognai-landing-page.git
+   ```
+2. Navegue até a pasta do projeto:
+   ```bash
+   cd cognai-landing-page
+   ```
+3. Abra o arquivo `index.html` em seu navegador.
 
-```bash
-python -m venv venv
-source venv/bin/activate   # Linux/MacOS
-venv\Scripts\activate      # Windows
-```
+---
 
-### Instalação de Dependências
+## Funcionalidades Adicionais *(se aplicável)*
 
-Após ativar o ambiente virtual, instale as dependências do projeto:
+- **Integração com APIs**: Integração com MailChimp ou outro serviço para gerenciar leads.
+- **Animações**: Efeitos de rolagem, transições e hover para melhorar a experiência do usuário.
+- **Dark Mode** *(opcional)*: Alternância entre temas claro e escuro.
 
-```bash
-pip install -r requirements.txt
-```
+---
 
-### Executando o Projeto
+## Contribuição
+Sinta-se à vontade para contribuir com melhorias ou sugerir novas funcionalidades:
+1. Faça um fork do projeto.
+2. Crie uma branch para sua contribuição:
+   ```bash
+   git checkout -b minha-contribuicao
+   ```
+3. Envie um pull request para revisão.
 
-Para rodar o projeto, execute o script principal:
-
-```bash
-python main.py
-```
-
-## Contribuições
-
-Contribuições são bem-vindas! Se você deseja contribuir para este projeto, por favor siga os passos abaixo:
-
-1. Faça um fork deste repositório.
-2. Crie uma branch para sua feature (`git checkout -b minha-feature`).
-3. Comite suas mudanças (`git commit -am 'Adicionando nova funcionalidade'`).
-4. Faça um push para a branch (`git push origin minha-feature`).
-5. Abra um Pull Request.
+---
 
 ## Licença
+Este projeto está sob a licença [MIT](LICENSE).
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+---
 
 ## Contato
+Para dúvidas ou sugestões, entre em contato:
+- **Email**: contato@cognai.com
+- **Telefone**: +55 (XX) XXXX-XXXX
+- **Redes Sociais**: [LinkedIn](https://linkedin.com/company/cognai), [Instagram](https://instagram.com/cognai)
 
-- **Dheiver Santos** (Autor principal)
-- Email: dheiver@example.com
+--- 
 
-## Agradecimentos
-
-- Agradecimentos especiais à equipe de médicos e cientistas que contribuíram com seus conhecimentos para o desenvolvimento deste projeto.
-
-## Saiba mais sobre o projeto
-
-[Saiba mais sobre o projeto aqui](https://claude.site/artifacts/352a1aa3-5137-4f5e-a553-6e4b4af4f9d7)
+Caso tenha informações específicas sobre design, funcionalidades ou integração, posso refinar ainda mais o conteúdo!
