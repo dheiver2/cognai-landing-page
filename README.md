@@ -74,6 +74,6 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 - Agradecimentos especiais à equipe de médicos e cientistas que contribuíram com seus conhecimentos para o desenvolvimento deste projeto.
 
-4. **Licença**: Se o projeto for aberto ao público, adicione uma licença, como a licença MIT, ou outra de sua escolha.
+## Saiba mais sobre o projeto
 
-Esse é um modelo simples para começar, mas você pode expandir conforme a complexidade do seu projeto!
+[Saiba mais sobre o projeto aqui](https://claude.site/artifacts/352a1aa3-5137-4f5e-a553-6e4b4af4f9d7)
