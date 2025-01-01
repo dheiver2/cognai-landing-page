@@ -86,3 +86,6 @@ Para dúvidas ou sugestões, entre em contato:
 - **Email**: contato@cognai.com
 - **Telefone**: +55 (XX) XXXX-XXXX
 - **Redes Sociais**: [LinkedIn](https://linkedin.com/company/cognai), [Instagram](https://instagram.com/cognai)
+
+  ![Cognai Landing Page Screenshot](https://github.com/dheiver2/cognai-landing-page/blob/main/screenshot%20(2).jpeg)
+
