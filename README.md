@@ -1,6 +1,3 @@
-Aqui está um exemplo de um arquivo `README.md` básico para o seu repositório. O arquivo pode ser personalizado conforme o seu projeto e suas necessidades:
-
-```markdown
 # Projeto de Medicina Assistida por IA
 
 Este é um projeto focado em aplicar inteligência artificial (IA) para melhorar os processos médicos, com o objetivo de fornecer ferramentas para diagnósticos mais rápidos e precisos, além de otimizar o tratamento de pacientes.
@@ -76,13 +73,7 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 ## Agradecimentos
 
 - Agradecimentos especiais à equipe de médicos e cientistas que contribuíram com seus conhecimentos para o desenvolvimento deste projeto.
-```
 
-### Como Usar
-
-1. **Preencha o campo "Descrição"** com detalhes sobre o seu projeto, seus objetivos e sua aplicação no campo médico.
-2. **Tecnologias Utilizadas**: Adicione todas as tecnologias que você utilizou ou planeja usar.
-3. **Instalação de Dependências**: Se você tem um arquivo `requirements.txt` com as bibliotecas necessárias, o usuário pode instalar tudo automaticamente.
 4. **Licença**: Se o projeto for aberto ao público, adicione uma licença, como a licença MIT, ou outra de sua escolha.
 
 Esse é um modelo simples para começar, mas você pode expandir conforme a complexidade do seu projeto!
