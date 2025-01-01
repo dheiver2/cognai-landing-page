@@ -1,3 +1,4 @@
+
 # Landing Page - Cognai
 
 ## Descrição do Projeto
@@ -59,6 +60,11 @@ Esta é a **landing page** oficial da **Cognai**, projetada para apresentar a em
 
 ---
 
+## Link Útil
+Acesse materiais complementares e outros recursos relacionados ao projeto [clicando aqui](https://claude.site/artifacts/352a1aa3-5137-4f5e-a553-6e4b4af4f9d7).
+
+---
+
 ## Contribuição
 Sinta-se à vontade para contribuir com melhorias ou sugerir novas funcionalidades:
 1. Faça um fork do projeto.
@@ -80,7 +86,3 @@ Para dúvidas ou sugestões, entre em contato:
 - **Email**: contato@cognai.com
 - **Telefone**: +55 (XX) XXXX-XXXX
 - **Redes Sociais**: [LinkedIn](https://linkedin.com/company/cognai), [Instagram](https://instagram.com/cognai)
-
---- 
-
-Caso tenha informações específicas sobre design, funcionalidades ou integração, posso refinar ainda mais o conteúdo!
