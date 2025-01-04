@@ -111,8 +111,7 @@ Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalh
 
 ## Contato
 
-- Email: seu-email@exemplo.com
-- LinkedIn: [Seu LinkedIn](https://linkedin.com/in/dheiver-santos)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/dheiver-santos)
 - Website: https://cognai-landing-page.vercel.app/
 
 ## Agradecimentos
