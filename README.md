@@ -1,6 +1,6 @@
 # Cognai - Plataforma de IA Médica
 
-![Cognai Screenshot](/screenshot(7).png)
+![Cognai Screenshot](/[screenshot(7).png](https://github.com/dheiver2/cognai-landing-page/blob/main/screenshot%20(7).png))
 
 ## Sobre o Projeto
 
