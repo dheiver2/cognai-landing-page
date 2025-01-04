@@ -12,8 +12,6 @@ import {
   Award,
   Mail
 } from 'lucide-react';
-import { Card, CardContent } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
 
 const SPECIALTIES = [
   {
@@ -101,76 +99,72 @@ const SpecialtyCard = ({ specialty, isSelected, onClick }) => {
   };
 
   return (
-    <Card 
-      className="bg-gray-800 border-gray-700 hover:bg-gray-700 transition-colors duration-200 cursor-pointer animate-fadeIn"
+    <div 
+      className="bg-gray-800 border border-gray-700 rounded-lg p-6 hover:bg-gray-700 transition-colors duration-200 cursor-pointer animate-fadeIn"
       onClick={onClick}
     >
-      <CardContent className="p-6">
-        <div className="flex items-center space-x-3">
-          {specialty.icon}
-          <h2 className="text-xl font-bold text-gray-200">{specialty.name}</h2>
-          <span className="ml-auto text-sm font-medium bg-gray-700 px-2 py-1 rounded">
-            {specialty.accuracy}
-          </span>
-        </div>
-        
-        <p className={`mt-4 text-sm ${getAlertColor(specialty.alertLevel)}`}>
-          {specialty.description}
-        </p>
+      <div className="flex items-center space-x-3">
+        {specialty.icon}
+        <h2 className="text-xl font-bold text-gray-200">{specialty.name}</h2>
+        <span className="ml-auto text-sm font-medium bg-gray-700 px-2 py-1 rounded">
+          {specialty.accuracy}
+        </span>
+      </div>
+      
+      <p className={`mt-4 text-sm ${getAlertColor(specialty.alertLevel)}`}>
+        {specialty.description}
+      </p>
 
-        {isSelected && (
-          <div className="mt-6 space-y-4">
-            <div className="grid grid-cols-3 gap-4">
-              <div className="text-center">
-                <BarChart2 className="w-6 h-6 mx-auto text-blue-400" />
-                <p className="mt-2 text-sm text-gray-400">Economia Anual</p>
-                <p className="font-bold text-gray-200">
-                  {specialty.stats.savings > 0 
-                    ? `R$${(specialty.stats.savings / 1000).toFixed(0)}k` 
-                    : 'N/A'}
-                </p>
-              </div>
-              <div className="text-center">
-                <TrendingUp className="w-6 h-6 mx-auto text-green-400" />
-                <p className="mt-2 text-sm text-gray-400">Eficiência</p>
-                <p className="font-bold text-gray-200">
-                  +{specialty.stats.efficiency}%
-                </p>
-              </div>
-              <div className="text-center">
-                <AlertTriangle className="w-6 h-6 mx-auto text-yellow-400" />
-                <p className="mt-2 text-sm text-gray-400">ROI</p>
-                <p className="font-bold text-gray-200">
-                  {specialty.stats.roi}%
-                </p>
-              </div>
+      {isSelected && (
+        <div className="mt-6 space-y-4">
+          <div className="grid grid-cols-3 gap-4">
+            <div className="text-center">
+              <BarChart2 className="w-6 h-6 mx-auto text-blue-400" />
+              <p className="mt-2 text-sm text-gray-400">Economia Anual</p>
+              <p className="font-bold text-gray-200">
+                {specialty.stats.savings > 0 
+                  ? `R$${(specialty.stats.savings / 1000).toFixed(0)}k` 
+                  : 'N/A'}
+              </p>
             </div>
-
-            <ul className="space-y-2 text-sm text-gray-400">
-              {specialty.benefits.map((benefit, index) => (
-                <li key={index} className="flex items-center">
-                  <div className="w-1.5 h-1.5 rounded-full bg-blue-400 mr-2" />
-                  {benefit}
-                </li>
-              ))}
-            </ul>
+            <div className="text-center">
+              <TrendingUp className="w-6 h-6 mx-auto text-green-400" />
+              <p className="mt-2 text-sm text-gray-400">Eficiência</p>
+              <p className="font-bold text-gray-200">
+                +{specialty.stats.efficiency}%
+              </p>
+            </div>
+            <div className="text-center">
+              <AlertTriangle className="w-6 h-6 mx-auto text-yellow-400" />
+              <p className="mt-2 text-sm text-gray-400">ROI</p>
+              <p className="font-bold text-gray-200">
+                {specialty.stats.roi}%
+              </p>
+            </div>
           </div>
-        )}
-      </CardContent>
-    </Card>
+
+          <ul className="space-y-2 text-sm text-gray-400">
+            {specialty.benefits.map((benefit, index) => (
+              <li key={index} className="flex items-center">
+                <div className="w-1.5 h-1.5 rounded-full bg-blue-400 mr-2" />
+                {benefit}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </div>
   );
 };
 
 const TestimonialCard = ({ author, role, content }) => (
-  <Card className="bg-gray-800 border-gray-700">
-    <CardContent className="p-6">
-      <p className="text-gray-300 italic">{content}</p>
-      <div className="mt-4">
-        <p className="font-medium text-gray-200">{author}</p>
-        <p className="text-sm text-gray-400">{role}</p>
-      </div>
-    </CardContent>
-  </Card>
+  <div className="bg-gray-800 border border-gray-700 rounded-lg p-6">
+    <p className="text-gray-300 italic">{content}</p>
+    <div className="mt-4">
+      <p className="font-medium text-gray-200">{author}</p>
+      <p className="text-sm text-gray-400">{role}</p>
+    </div>
+  </div>
 );
 
 function App() {
@@ -188,9 +182,9 @@ function App() {
             Transforme sua prática médica com inteligência artificial de ponta. 
             Reduza custos, aumente a precisão e melhore a eficiência dos diagnósticos.
           </p>
-          <Button className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-lg text-lg">
+          <button className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-lg text-lg">
             Agende uma Demo
-          </Button>
+          </button>
         </div>
       </header>
 
@@ -202,15 +196,13 @@ function App() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {BENEFITS.map((benefit, index) => (
-              <Card key={index} className="bg-gray-800 border-gray-700">
-                <CardContent className="p-6">
-                  <div className="flex items-center space-x-4 mb-4">
-                    {benefit.icon}
-                    <h3 className="text-xl font-semibold">{benefit.title}</h3>
-                  </div>
-                  <p className="text-gray-400">{benefit.description}</p>
-                </CardContent>
-              </Card>
+              <div key={index} className="bg-gray-800 border border-gray-700 rounded-lg p-6">
+                <div className="flex items-center space-x-4 mb-4">
+                  {benefit.icon}
+                  <h3 className="text-xl font-semibold">{benefit.title}</h3>
+                </div>
+                <p className="text-gray-400">{benefit.description}</p>
+              </div>
             ))}
           </div>
         </div>
@@ -274,12 +266,12 @@ function App() {
             revolucionar seus diagnósticos médicos.
           </p>
           <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4">
-            <Button className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-lg text-lg">
+            <button className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-lg text-lg">
               Agende uma Demo
-            </Button>
-            <Button className="bg-transparent border-2 border-white hover:bg-white/10 px-8 py-3 rounded-lg text-lg">
+            </button>
+            <button className="bg-transparent border-2 border-white hover:bg-white/10 px-8 py-3 rounded-lg text-lg">
               Fale com Especialista
-            </Button>
+            </button>
           </div>
         </div>
       </section>
@@ -321,9 +313,9 @@ function App() {
                   placeholder="Seu e-mail"
                   className="bg-gray-800 text-gray-200 px-4 py-2 rounded-lg flex-1"
                 />
-                <Button className="bg-blue-500 hover:bg-blue-600">
+                <button className="bg-blue-500 hover:bg-blue-600 p-2 rounded-lg">
                   <Mail className="w-4 h-4" />
-                </Button>
+                </button>
               </div>
             </div>
           </div>
