@@ -1,91 +1,121 @@
+# Cognai - Plataforma de IA Médica
 
-# Landing Page - Cognai
+![Cognai Screenshot](/screenshot.jpeg)
 
-## Descrição do Projeto
-Esta é a **landing page** oficial da **Cognai**, projetada para apresentar a empresa, seus serviços, valores e diferenciais de forma clara e atraente. O objetivo principal é captar a atenção de visitantes, comunicar a proposta de valor da empresa e gerar leads qualificados.
+## Sobre o Projeto
 
----
+A Cognai é uma plataforma avançada de diagnósticos médicos potencializada por Inteligência Artificial. O sistema oferece soluções para diferentes especialidades médicas, incluindo Cardiologia, Neurologia e Radiologia, com precisão superior a 99%.
+
+### Características Principais
+
+- 🧠 IA de última geração para diagnósticos médicos
+- 📊 Dashboard interativo com métricas em tempo real
+- 🏥 Integração com sistemas hospitalares
+- 🔒 Certificações FDA, ANVISA e compliance com LGPD/HIPAA
+- 📱 Interface responsiva e moderna
+- ⚡ Performance otimizada
 
 ## Tecnologias Utilizadas
-- **HTML5**: Estruturação do conteúdo.
-- **CSS3**: Estilização da página, incluindo layouts responsivos.
-- **JavaScript**: Funcionalidades interativas e dinâmicas.
-- **Frameworks/Libs**: *(se aplicável)* Exemplo: Bootstrap, TailwindCSS, etc.
-- **Backend (opcional)**: Node.js, PHP, ou outro (caso necessário para envio de formulários ou integração com APIs).
 
----
+- React.js
+- Tailwind CSS
+- Lucide Icons
+- Outras dependências:
+  - PostCSS
+  - Autoprefixer
 
-## Estrutura da Landing Page
+## Pré-requisitos
 
-### 1. **Seções**
-- **Hero Section**: Apresentação com slogan, CTA (Call to Action) e imagem principal.
-- **Sobre a Cognai**: Breve descrição sobre a empresa e sua missão.
-- **Serviços**: Destaque para os principais serviços oferecidos.
-- **Depoimentos**: Feedback de clientes e parceiros.
-- **Portfólio/Projetos**: Exibição de cases de sucesso.
-- **Contato**: Formulário para geração de leads.
+- Node.js 16.x ou superior
+- npm ou yarn
 
-### 2. **Recursos**
-- Design responsivo para dispositivos móveis e desktops.
-- Otimização para SEO.
-- Integração com ferramentas de análise (Google Analytics, Hotjar, etc.).
-- Links para redes sociais da empresa.
+## Instalação
 
----
+1. Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/cognai-landing-page.git
+```
 
-## Como Executar Localmente
+2. Instale as dependências:
+```bash
+cd cognai-landing-page
+npm install
+```
 
-### Pré-requisitos
-- Navegador moderno (Google Chrome, Firefox, etc.).
-- Editor de código (ex.: VSCode) *(opcional)*.
+3. Execute o projeto em desenvolvimento:
+```bash
+npm run dev
+```
 
-### Passos
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/cognai-landing-page.git
-   ```
-2. Navegue até a pasta do projeto:
-   ```bash
-   cd cognai-landing-page
-   ```
-3. Abra o arquivo `index.html` em seu navegador.
+## Estrutura do Projeto
 
----
+```
+cognai-landing-page/
+├── public/
+│   └── index.html
+├── src/
+│   ├── App.js
+│   ├── index.js
+│   └── index.css
+├── tailwind.config.js
+├── postcss.config.js
+└── package.json
+```
 
-## Funcionalidades Adicionais *(se aplicável)*
+## Scripts Disponíveis
 
-- **Integração com APIs**: Integração com MailChimp ou outro serviço para gerenciar leads.
-- **Animações**: Efeitos de rolagem, transições e hover para melhorar a experiência do usuário.
-- **Dark Mode** *(opcional)*: Alternância entre temas claro e escuro.
+- `npm start`: Inicia o servidor de desenvolvimento
+- `npm build`: Gera a versão de produção
+- `npm test`: Executa os testes
+- `npm eject`: Ejeta as configurações do Create React App
 
----
+## Configuração do Tailwind
 
-## Link Útil
-Acesse materiais complementares e outros recursos relacionados ao projeto [clicando aqui](https://claude.site/artifacts/352a1aa3-5137-4f5e-a553-6e4b4af4f9d7).
+O projeto utiliza Tailwind CSS para estilização. A configuração pode ser encontrada em `tailwind.config.js`:
 
----
+```javascript
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+    extend: {
+      // Configurações personalizadas aqui
+    },
+  },
+  plugins: [],
+}
+```
+
+## Deploy
+
+O projeto está configurado para deploy na Vercel. Para fazer o deploy:
+
+1. Conecte seu repositório à Vercel
+2. Configure as variáveis de ambiente necessárias
+3. Deploy será feito automaticamente a cada push na branch main
 
 ## Contribuição
-Sinta-se à vontade para contribuir com melhorias ou sugerir novas funcionalidades:
-1. Faça um fork do projeto.
-2. Crie uma branch para sua contribuição:
-   ```bash
-   git checkout -b minha-contribuicao
-   ```
-3. Envie um pull request para revisão.
 
----
+1. Faça um Fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Push para a branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
 
 ## Licença
-Este projeto está sob a licença [MIT](LICENSE).
 
----
+Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
 
 ## Contato
-Para dúvidas ou sugestões, entre em contato:
-- **Email**: contato@cognai.com
-- **Telefone**: +55 (XX) XXXX-XXXX
-- **Redes Sociais**: [LinkedIn](https://linkedin.com/company/cognai), [Instagram](https://instagram.com/cognai)
 
-  ![Cognai Landing Page Screenshot](https://github.com/dheiver2/cognai-landing-page/blob/main/screenshot%20(2).jpeg)
+- Email: seu-email@exemplo.com
+- LinkedIn: [Dheiver](https://linkedin.com/in/dheiver-santos)
+- Website: [www.cognai.com.br](https://www.cognai.com.br)
 
+## Agradecimentos
+
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Vercel](https://vercel.com/)
+- [Lucide Icons](https://lucide.dev/)
