@@ -1,7 +1,7 @@
 # Cognai - Plataforma de IA Médica
 
 <div align="center">
-  <img src="https://github.com/dheiver2/cognai-landing-page/blob/main/screenshot%20(7).png" alt="Cognai Screenshot" width="100%" />
+  <img src="https://github.com/dheiver2/cognai-landing-page/blob/main/screenshot%20(7).png" alt="Cognai Screenshot" width="80%" style="max-width: 800px" />
 </div>
 
 ## Sobre o Projeto
