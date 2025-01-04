@@ -1,6 +1,6 @@
 # Cognai - Plataforma de IA Médica
 
-![Cognai Screenshot](/screenshot.jpeg)
+![Cognai Screenshot](/screenshot (7).png)
 
 ## Sobre o Projeto
 
